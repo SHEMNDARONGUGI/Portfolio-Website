@@ -1,0 +1,81 @@
+h4{
+    color: greenyellow;
+}
+
+a{
+    color: greenyellow;
+    
+    
+}
+a:hover{
+    color: white;
+}
+
+.projects{
+    display: flex;
+
+}
+
+.myproject{
+    width: 20%;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.myproject:hover{
+    scale: 1.1;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+
+@media (max-width: 576px) {
+    /* Styles for small mobile devices */
+    .projects{
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    .myproject{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin: auto;
+        /* margin-bottom: 50px; */
+        border-radius: 20px;
+        margin-left: 0px;
+    }
+
+    img{
+        margin-top: 30px;
+    }
+  
+
+}
+@media (max-width: 768px) {
+    /* Styles for tablets and large phones */
+    .projects{
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    .myproject{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin: auto;
+        /* margin-bottom: 50px; */
+        border-radius: 20px;
+        margin-left: 0px;
+    }
+       
+}
+

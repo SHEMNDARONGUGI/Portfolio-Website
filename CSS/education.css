@@ -1,0 +1,110 @@
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+   
+}
+
+.education{
+    width: 20%;
+    height: 500px;
+    border: 2px solid greenyellow;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.education:hover{
+    scale: 1.05;
+    border: 2px solid white;
+}
+
+
+.education-img{
+    width: 100%;
+    height: 250px;
+    border-radius: inherit;
+}
+
+h4, h5{
+    margin: 20px;
+}
+
+ol li{
+    margin-left: 50px;
+}
+
+.lang{
+    margin-left: 20px;
+}
+
+.languages-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.language{
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    border: 2px solid greenyellow;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.language:hover{
+    scale: 1.05;
+    border: 2px solid white;
+}
+
+p{
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    /* Styles for small mobile devices */
+    .education-container{
+        display: block;
+        font-size: 12px;
+        
+    }
+
+    .education{
+        width: 90%;
+        height: auto;
+        border: 1px solid greenyellow;
+        border-radius: 20px;
+        margin-top: 50px;
+        }
+
+    .language{
+        width: 90%;
+        height: auto;
+        border: 1px solid greenyellow;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .languages-section{
+        display: block;
+    }
+
+}
+@media (max-width: 768px) {
+    /* Styles for tablets and large phones */
+    .education-container{
+        display: block;
+        font-size: 15px;
+    }
+
+    .education{
+        width: 90%;
+        height: auto;
+        border: 1px solid greenyellow;
+        margin-top: 50px;
+        border-radius: 20px;
+}
+}
