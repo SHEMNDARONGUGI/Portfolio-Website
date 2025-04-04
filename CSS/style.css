@@ -224,7 +224,7 @@ hr{
         display: block;
         color: #FFFFFF;
         margin-right: auto;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #about-content{
@@ -272,7 +272,7 @@ hr{
 
 @media (max-width: 450px) {
     header>nav>h2 {
-        font-size: 10px;
+        font-size: 20px;
         padding-left: 10px;
         overflow: hidden;
         max-width: 70%;
@@ -305,7 +305,7 @@ hr{
 @media (max-width: 576px) {
     /* Styles for small mobile devices */
     .menu-toggle{
-        font-size: 15px;
+        font-size: 20px;
     
     }
 
@@ -349,7 +349,7 @@ hr{
 @media (max-width: 768px) {
     /* Styles for tablets and large phones */
     .menu-toggle{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #about-content{

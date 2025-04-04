@@ -32,6 +32,8 @@ The portfolio website highlights Shem's journey in software engineering, includi
 - **Flaticon**: For icons.
 - **Responsive Design**: Ensures the website is mobile-friendly.
 
+Visit Website: [text](https://shemndaro.netlify.app/)
+
 ## Project Structure
 /Portfolio_Website/<br>
 ├── .vscode/<br>
