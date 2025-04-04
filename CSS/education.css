@@ -69,7 +69,6 @@ p{
     .education-container{
         display: block;
         font-size: 12px;
-        
     }
 
     .education{
@@ -78,6 +77,7 @@ p{
         border: 1px solid greenyellow;
         border-radius: 20px;
         margin-top: 50px;
+        margin: 0;
         }
 
     .language{
@@ -98,6 +98,7 @@ p{
     .education-container{
         display: block;
         font-size: 15px;
+        margin: 0;
     }
 
     .education{

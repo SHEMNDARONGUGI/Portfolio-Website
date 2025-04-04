@@ -130,6 +130,7 @@ li>.nav-link{
 #about-content{
     display: flex;
     font-size: 18px;
+    margin-left: 40px;
 }
 
 .about-container{
@@ -214,7 +215,7 @@ hr{
 
     header>nav>h2{
         color: rgb(250, 252, 249);
-        font-size: 20px;
+        font-size: 12px;
         font-weight: bold;
         /* font-family: 'Times New Roman', Times, serif; */
         margin-right: 150px;
@@ -223,7 +224,7 @@ hr{
         display: block;
         color: #FFFFFF;
         margin-right: auto;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #about-content{
@@ -271,7 +272,7 @@ hr{
 
 @media (max-width: 450px) {
     header>nav>h2 {
-        font-size: 13px;
+        font-size: 10px;
         padding-left: 10px;
         overflow: hidden;
         max-width: 70%;
@@ -279,7 +280,7 @@ hr{
         
     }
     .menu-toggle {
-        font-size: 20px;
+        font-size: 15px;
         float: right;
         
     }
@@ -333,7 +334,7 @@ hr{
 
 
 
-    header>nav>label{
+    header>nav>h2{
         font-size: 12px;
         padding-left: 50px;
         font-weight: bold;
@@ -348,8 +349,7 @@ hr{
 @media (max-width: 768px) {
     /* Styles for tablets and large phones */
     .menu-toggle{
-        font-size: 20px;
-    
+        font-size: 15px;
     }
 
     #about-content{
@@ -374,8 +374,8 @@ hr{
 
 
 
-    header>nav>label{
-        font-size: 20px;
+    header>nav>h2{
+        font-size: 12px;
         padding-left: 50px;
         font-weight: bold;
     }
@@ -384,10 +384,5 @@ hr{
         font-size: 16px;
     }
 }
-@media (max-width: 992px) {
-    /* Styles for tablets and small laptops */
-}
-@media (max-width: 1200px) {
-    /* Styles for desktops and large screens */
-}
+
 
