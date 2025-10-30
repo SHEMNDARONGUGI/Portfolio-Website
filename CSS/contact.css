@@ -87,7 +87,7 @@ button:hover{
     /* Styles for small mobile devices */
     #contact-container{
         flex-direction: column;
-        height: auto;
+        height: 100%;
         width: 80%;
         margin: 50px 0px 0px 0px;
     }
@@ -129,6 +129,7 @@ button:hover{
         height: auto;
         width: 90%;
         margin: 50px 50px 0px 50px;
+        height: 100%;
     }
     #contact-info{
         background-color: #002638;
