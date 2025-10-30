@@ -60,13 +60,13 @@
          <form action="" method="">
             <legend class="section-title">Contact Form</legend>
             <label for="name">Name: </label><br>
-            <input type="text" id="name" name="name"><br>
+            <input type="text" id="name" name="name" required><br>
             <label for="email">Email: </label><br>
-            <input type="email" id="email" placeholder="abc@gmail.com" name="email"><br>
+            <input type="email" id="email" placeholder="abc@gmail.com" name="email" required><br>
             <label for="subject">Subject: </label><br>
-            <input type="text" id="subject"><br>
+            <input type="text" id="subject" aria-rowindex=""><br>
             <label for="message">Message: </label><br>
-            <textarea name="message" id="message" placeholder="Type here..."></textarea><br>
+            <textarea name="message" id="message" placeholder="Type here..." required></textarea><br>
 
             <button type="submit">Send Message</button>
 
